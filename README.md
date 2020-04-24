@@ -34,9 +34,13 @@ file name as-is with the `.md` trimmed.
 
 ## Roadmap
 
-[ ] Ask for confirmation to overwrite files (if not already `literate` output)
-[ ] Skip files that are already up-to-date
-[ ] Add ability to traverse directories
-  [ ] Add ability to parse globs (`*.c.md`)
-[ ] Match filename suffix with code fence tags (`.c` files should only have code
-blocks that were marked with `\`\`\`c`)
+- [x] Process single files as advertised
+- [x] Process files in batch
+- [ ] Print a warning that the file is auto generated (requires
+  language-sensitive comments)
+- [ ] Ask for confirmation to overwrite files (if not already `literate` output)
+- [ ] Skip files that are already up-to-date
+- [ ] Add ability to traverse directories
+  - [ ] Add ability to parse globs (`*.c.md`)
+- [ ] Match filename suffix with code fence tags (`.c` files should only have code
+  blocks that were marked with `\`\`\`c`)
